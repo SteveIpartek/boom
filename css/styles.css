@@ -11,6 +11,12 @@ body{
 h1 {
   color: #333;
 }
+
+#result{
+  font-size: 25px;
+}
+
+
 #result .green {
   color: #2ecc71;
   text-align: center;
@@ -41,6 +47,7 @@ input[type=number] {
   -moz-appearance: textfield;
   width: 50px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 #divInput{
@@ -54,6 +61,7 @@ input[type=number] {
 #restart{
   background-color:#3498DB ;
   color: white;
+  font-size: 20px;
   padding: 7.5px
 }
 

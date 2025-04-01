@@ -41,13 +41,13 @@ if (res) {
 
         if (numeroDelUsuario !== undefined) {
             if (numeroMaquina === numeroDelUsuario) {
-                res.innerHTML = `<h3 class="green">¡Has salvado el mundo!</h3>
+                res.innerHTML = `<h3 class="green">¡Has salvado el mundo!👑</h3>
                     <p>Tu numero <b>${numeroDelUsuario}</b> es el mismo que el numero: <b>${numeroMaquina}</b></p>`;
             } else {
                 if (isNaN(numeroDelUsuario)) {
                     res.innerHTML=`<p>Debe introducir un numero entero </p>`;
                 }else{
-                res.innerHTML = `<h3 class="red">¡La bomba ha estallado!</h3>
+                res.innerHTML = `<h3 class="red">¡La bomba ha estallado!💥</h3>
                     <p> Tu numero <b>${numeroDelUsuario}</b> es diferente al numero <b>${numeroMaquina}</b></p>`;}
             }
         } else {
